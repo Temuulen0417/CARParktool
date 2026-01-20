@@ -308,3 +308,4 @@ class CPMTooldev:
         response = requests.post(f"{__ENDPOINT_URL__}/brake_car", params=params, data=payload)
         response_decoded = response.json()
         return response_decoded.get("ok")
+
